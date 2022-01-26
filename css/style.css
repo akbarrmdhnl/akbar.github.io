@@ -1,0 +1,60 @@
+#image {    
+    animation: pulse 1s infinite;
+    border-radius: 50%;
+}
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 0 0 rgb(71, 73, 73);
+    }
+
+    to {
+        box-shadow: 0 0 0 150px rgb(71, 73, 0, 0);
+    }
+}
+
+#profile {
+    background: rgb(44,45,46);
+    background: linear-gradient(90deg, rgba(44,45,46,1) 29%, rgba(125,120,122,1) 67%);
+}
+
+#portofolio {
+    background: rgb(44,45,46);
+    background: linear-gradient(90deg, rgba(44,45,46,1) 29%, rgba(125,120,122,1) 67%);
+}
+
+.pt-3 h5 {
+    float: right;
+    margin-right: 65px;
+}
+
+.bi-telephone-fill h5 {
+    padding-right: 45px;
+}
+
+.bi-whatsapp h5 {
+    padding-right: 45px;
+}
+
+.bi-instagram h5 {
+    padding-right: 45px;
+}
+
+.pt-2 p {
+    float: right;
+    padding-right: 250px;
+}
+
+#Profile {
+    margin-top: 75px;
+}
+
+#skills {
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
